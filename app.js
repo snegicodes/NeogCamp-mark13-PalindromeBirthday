@@ -204,10 +204,10 @@ function clickHandler(e) {
         getNextPalindromeDate(date)[0] <= getPreviousPalindromeDate(date)[0]
       ) {
         var [counter, nextDate] = getNextPalindromeDate(date);
-        resultMsg.innerText = `Your Birthday is not Palindromic. The nearest palindromic date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days.`;
+        resultMsg.innerText = `Your Birthday is not Palindrome. The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days 👨🏻‍💻.`;
       } else {
         var [counter, nextDate] = getPreviousPalindromeDate(date);
-        resultMsg.innerText = `Your Birthday is not Palindromic. The nearest palindromic date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days.`;
+        resultMsg.innerText = `Your Birthday is not Palindromic. The nearest palindromic date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days 👨🏻‍💻.`;
       }
     }
   }

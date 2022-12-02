@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --primary : rgb(0, 183, 255);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    margin: 0.5rem auto 0.2rem;
+    font-size: 1.8rem;
+}
+
+input{
+    text-align: center;
+    margin: 1rem auto;
+    height:5vh;
+    background-color: black;
+    color: white;
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+button{
+    cursor: pointer;
+    margin: 0.5rem auto;
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid white;
+    padding: 0.8rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+#result-msg{
+    width:50%;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+}
+
+footer{
+    margin: 3rem;
+}
